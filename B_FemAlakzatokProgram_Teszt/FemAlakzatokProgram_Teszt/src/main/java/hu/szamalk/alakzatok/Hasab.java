@@ -1,10 +1,15 @@
 package hu.szamalk.alakzatok;
 
+import java.util.List;
+
 public class Hasab extends FemAlakzat {
     private double a,b,m;
-    public Hasab(double v, double v1, double v2) {
-        super();
 
+    public Hasab(List<FemAlakzat> lista, double sugar, double magassag, double a, double b, double m) {
+        super(lista, sugar, magassag);
+        this.a = a;
+        this.b = b;
+        this.m = m;
     }
 
     public int getA() {
