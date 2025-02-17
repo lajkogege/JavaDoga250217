@@ -1,8 +1,10 @@
-package com.ruander.alakzatok;
+package hu.szamalk.alakzatok;
 
 public class Hasab extends FemAlakzat {
+    private double a,b,m;
     public Hasab(double v, double v1, double v2) {
         super();
+
     }
 
     public int getA() {

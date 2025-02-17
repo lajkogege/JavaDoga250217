@@ -1,21 +1,24 @@
 package com.ruander;
 
-import com.ruander.alakzatok.FemAlakzat;
-import com.ruander.alakzatok.Gomb;
-import com.ruander.alakzatok.Hasab;
+import hu.szamalk.alakzatok.FemAlakzat;
+import hu.szamalk.alakzatok.Gomb;
+import hu.szamalk.alakzatok.Hasab;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class FemAlakzatokProgram {
-    public void ujAlakzat(Gomb gomb) {
-    }
 
     public ArrayList<FemAlakzat> getLista() {
-        return ArrayList<FemAlakzat>;
+        return ArrayList<>;
     }
 
     public double osszSuly() {
-        return 0.0;
+        double osszSuly = 0;
+        for (FemAlakzat alakzat : getLista()) {
+            osszSuly += alakzat.suly();
+        }
+        return osszSuly;
     }
 
     public double gombokOsszSuly() {
@@ -30,7 +33,7 @@ public class FemAlakzatokProgram {
         return new Gomb(0);
     }
 
-    public void ujAlakzat2(Gomb gomb) {
+    public void ujAlakzat2(FemAlakzat alakzat) {
 
     }
 

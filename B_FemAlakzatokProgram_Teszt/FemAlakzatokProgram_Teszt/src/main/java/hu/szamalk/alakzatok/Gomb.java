@@ -1,4 +1,4 @@
-package com.ruander.alakzatok;
+package hu.szamalk.alakzatok;
 
 public class Gomb extends FemAlakzat {
     public Gomb(double v) {

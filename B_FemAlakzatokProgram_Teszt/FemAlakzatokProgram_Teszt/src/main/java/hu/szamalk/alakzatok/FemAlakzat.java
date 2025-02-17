@@ -1,20 +1,30 @@
-package com.ruander.alakzatok;
+package hu.szamalk.alakzatok;
+
+import java.util.List;
 
 public class FemAlakzat {
+    private List<FemAlakzat> Lista;
     public double sugar;
     public double magassag;
+
+    public FemAlakzat() {
+
+    }
+
 
     public FemAlakzat(double sugar, double magassag) {
         this.sugar = sugar;
         this.magassag = magassag;
     }
 
+
+
     public static double getFajsuly() {
         return 0.0;
     }
 
     public double terfogat() {
-        return 0.0;
+        return 4 * (sugar*(Math.sqrt(sugar)))*Math.PI/3;
     }
 
     public double suly() {

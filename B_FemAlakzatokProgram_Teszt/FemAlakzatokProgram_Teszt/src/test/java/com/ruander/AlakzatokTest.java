@@ -1,5 +1,8 @@
-package com.ruander.alakzatok;
+package com.ruander;
 
+import hu.szamalk.alakzatok.FemAlakzat;
+import hu.szamalk.alakzatok.Gomb;
+import hu.szamalk.alakzatok.Hasab;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Method;
