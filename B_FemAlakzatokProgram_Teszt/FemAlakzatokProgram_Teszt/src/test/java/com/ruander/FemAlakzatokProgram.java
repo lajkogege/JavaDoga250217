@@ -9,17 +9,17 @@ import java.util.List;
 
 public class FemAlakzatokProgram {
 
-    public ArrayList<FemAlakzat> getLista() {
-        return ArrayList<>;
-    }
+   /*public ArrayList<FemAlakzat> getLista() {
 
-    public double osszSuly() {
+    }
+*/
+    /*public double osszSuly() {
         double osszSuly = 0;
-        for (FemAlakzat alakzat : getLista()) {
+        for (FemAlakzat alakzat : getLista() {
             osszSuly += alakzat.suly();
         }
         return osszSuly;
-    }
+    }*/
 
     public double gombokOsszSuly() {
         return 0.0;

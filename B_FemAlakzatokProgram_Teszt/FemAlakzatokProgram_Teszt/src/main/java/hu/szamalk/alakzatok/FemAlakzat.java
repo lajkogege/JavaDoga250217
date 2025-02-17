@@ -7,17 +7,15 @@ public class FemAlakzat {
     public double sugar;
     public double magassag;
 
-    public FemAlakzat() {
-
-    }
-
-
-    public FemAlakzat(double sugar, double magassag) {
+    public FemAlakzat(List<FemAlakzat> lista, double sugar, double magassag) {
+        Lista = lista;
         this.sugar = sugar;
         this.magassag = magassag;
     }
 
+    public FemAlakzat() {
 
+    }
 
     public static double getFajsuly() {
         return 0.0;
@@ -28,6 +26,6 @@ public class FemAlakzat {
     }
 
     public double suly() {
-        return 0.0;
+        return terfogat()*getFajsuly();
     }
 }
